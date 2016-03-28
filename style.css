@@ -7,6 +7,7 @@ body {
   margin-right: auto;
   background-color: white;
   font-family: "Droid Serif", serif;
+  font-size: 17px;
 }
 
 header {
@@ -17,6 +18,11 @@ header {
 
 article {
   margin-top: 60px;
+}
+
+article p {
+  text-indent: 30px;
+  line-height: 1.5em;
 }
 
 article h1 {
@@ -84,6 +90,8 @@ header li {
   background-image: url("img/list-bg.png");
   background-repeat: no-repeat;
   padding: 20px;
+  font-family: "Comic Sans MS", sans-serif;
+  color: #71664F;
 }
 
 .ingredients2 {
