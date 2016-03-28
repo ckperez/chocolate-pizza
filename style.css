@@ -145,13 +145,21 @@ p.print {
   margin-left: 30px;
 }
 
-.ingredients li {
-  line-height: 1.85em;
-  list-style: square;
+input {
+  background-color: #FEFBEA;
 }
 
-.ingredients li:hover {
-  text-decoration: line-through;
+input[type=checkbox] + label {
+  text-decoration: none;
+}
+
+input[type=checkbox]:checked + label {
+text-decoration: line-through;
+}
+
+.ingredients li {
+  line-height: 1.85em;
+  list-style: none;
 }
 
 .ingredients1 {
