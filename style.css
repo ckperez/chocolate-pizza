@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Abel|Yellowtail|Droid+Serif|Oswald:700);
+
+body {
+  max-width: 901px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-family: "Droid Serif", serif;
+}
+
+header {
+  width: 901px;
+  height: 100px;
+  position: relative;
+}
+
+article {
+  margin-top: 60px;
+}
+
+article h1 {
+  font-family: "Oswald:700", Impact, sans-serif;
+  font-weight: 700;
+}
+
+.logo {
+  display: block;
+  float: left;
+  margin-top: 20px;
+}
+
+.logoWords {
+  float:left;
+  margin-top: 17px;
+  padding-top: 0;
+  margin-left: 4px;
+}
+
+.logoType {
+  /*float:left;*/
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  margin-top: -7px;
+  color:#333333;
+}
+
+.subLogoType {
+  display: block;
+  float: left;
+  font-family: "Abel", sans-serif;
+  font-size: 11px;
+  margin: 0;
+  margin-top: -7px;
+  margin-left: 4px;
+  color: #555555;
+}
+
+header ul, header li {
+  display: inline-block;
+  list-style: none;
+}
+
+(header ul):first-child {
+  margin-right: -100px;
+}
+
+header li {
+  margin-left: -2px;
+  margin-right: 0;
+}
+
+.headerBorder {
+  margin-top: 29px;
+}
+
+.footerBorder {
+  margin-bottom: 18px;
+}
+
+.ingredients {
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.ingredients2 {
+  margin-left:20px;
+}
+
+.profile {
+  float:left;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.profile h1 {
+  margin-top: 0;
+}
+
+.profile p {
+  font-size: 15px;
+}
+
+.profileText {
+  float: right;
+  margin-left: 12px;
+  width: 560px;
+}
+
+.profileHeader {
+  font-size: 20px;
+}
+
+.shareRecipe {
+  background-color: #BB7056;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  color: white;
+  width: 200px;
+  float: right;
+  text-align: center;
+  margin-top: 14px;
+  padding: 10px 0;
+}
+
+div p {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.halfHR {
+  width: 435px;
+  border: 1px solid #EDEDED;
+  clear: both;
+}
+
+.leftHR, .footerLogo {
+  float: left;
+}
+
+.rightHR {
+  float:right;
+}
+
+.footerLogo {
+  width: 20px;
+  opacity: 0.5;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.copyright {
+  text-align: center;
+  color: #999999;
+  font-size: 14px;
+  clear: both;
+}
