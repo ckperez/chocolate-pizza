@@ -1,6 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Abel|Yellowtail|Droid+Serif|Oswald:700);
+
 body {
   max-width: 901px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
+  font-family: "Droid Serif", serif;
+}
+
+header {
+  width: 901px;
+  height: 100px;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  float: left;
+  margin-top: 20px;
+}
+
+.logoWords {
+  float:left;
+  margin-top: 17px;
+  padding-top: 0;
+  margin-left: 4px;
+}
+
+.logoType {
+  /*float:left;*/
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  margin-top: -7px;
+  color:#333333;
+}
+
+.subLogoType {
+  display: block;
+  float: left;
+  font-family: "Abel", sans-serif;
+  font-size: 11px;
+  margin: 0;
+  margin-top: -7px;
+  margin-left: 4px;
+  color: #555555;
+}
+
+header ul, header li {
+  display: inline-block;
+  list-style: none;
+}
+
+header ul:nth-child(2) {
+  margin-left: 10px;
+}
+
+.headerBorder {
+  margin-top: 29px;
 }
